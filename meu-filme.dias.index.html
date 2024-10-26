@@ -1,0 +1,54 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canal ao Vivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+        }
+        .channel {
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Canais ao Vivo</h1>
+
+    <div class="channel">
+        <h2>Premier</h2>
+        <video controls src="https://new.m3u8.one/pre1/tracks-v1a1/mono.m3u8"></video>
+    </div>
+
+    <div class="channel">
+        <h2>Globo Jornalismo SP</h2>
+        <video controls src="https://stream.m3u8.one/globosp/tracks-v1a1/mono.m3u8"></video>
+    </div>
+
+    <div class="channel">
+        <h2>BAND</h2>
+        <video controls src="https://stream.m3u8.one/band/tracks-v1a1/mono.m3u8"></video>
+    </div>
+
+    <!-- Repita o bloco acima para outros canais -->
+    
+</body>
+</html>
